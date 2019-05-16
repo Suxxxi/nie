@@ -4,19 +4,31 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/2016/12/30/a-plain-markdown-post/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/05/16/%E4%BB%8A%E5%A4%A9%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2-%E5%92%8C%E6%97%A7%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A0%B7-%E5%8F%AF%E4%BB%A5%E5%AE%9E%E7%8E%B0%E5%90%8C%E6%AD%A5%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -25,49 +37,8 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/2015/07/23/hello-r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/2015/01/01/lorem-ipsum/</loc>
-    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url>
   
 </urlset>

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on A Hugo website</title>
+    <title>r on A Hugo website</title>
     <link>/categories/r/</link>
-    <description>Recent content in R on A Hugo website</description>
+    <description>Recent content in r on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>今天搭建了一个新的博客，和旧的不一样，可以实现同步更新</title>
+      <link>/2019/05/16/%E4%BB%8A%E5%A4%A9%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2-%E5%92%8C%E6%97%A7%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A0%B7-%E5%8F%AF%E4%BB%A5%E5%AE%9E%E7%8E%B0%E5%90%8C%E6%AD%A5%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/2019/05/16/%E4%BB%8A%E5%A4%A9%E6%90%AD%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2-%E5%92%8C%E6%97%A7%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A0%B7-%E5%8F%AF%E4%BB%A5%E5%AE%9E%E7%8E%B0%E5%90%8C%E6%AD%A5%E6%9B%B4%E6%96%B0/</guid>
+      <description>注：路径含有中文在使用r时真的会产生超级多的error
+以前的博客:https://ecstatic-cray-9e84c8.netlify.com/</description>
     </item>
     
   </channel>

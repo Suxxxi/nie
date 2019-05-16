@@ -1,0 +1,16 @@
+---
+title: 今天搭建了一个新的博客，和旧的不一样，可以实现同步更新
+author: ''
+date: '2019-05-16'
+slug: 今天搭建了一个新的博客 -和旧的不一样-可以实现同步更新
+categories:
+  - r
+tags: []
+---
+
+
+
+注：路径含有中文在使用r时真的会产生超级多的error
+
+以前的博客:
+https://ecstatic-cray-9e84c8.netlify.com/
