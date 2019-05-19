@@ -19,10 +19,6 @@ f<-f[order(f[2],decreasing=TRUE),]
 library(wordcloud2)
 f<-f[1:150,]
 wordcloud2(f, size = 0.6 ,shape='star') 
-path<-"C:/Users/suxx/Documents/nie/dang.png"
-wordcloud2(f,size = 1.3,figPath =path)
-
 ```
-
 
 
