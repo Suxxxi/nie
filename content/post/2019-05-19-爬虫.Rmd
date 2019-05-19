@@ -6,7 +6,7 @@ slug: 爬虫
 tags: []
 categories: r
 ---
-```{r}
+```{r message=TRUE}
 library(rvest)
 url<-'http://www.gov.cn/premier/2017-03/16/content_5177940.htm'
 web<-read_html(url,encoding="utf-8")

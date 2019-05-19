@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>时间函数</title>
+      <link>/2019/05/19/%E6%97%B6%E9%97%B4%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/05/19/%E6%97%B6%E9%97%B4%E5%87%BD%E6%95%B0/</guid>
+      <description>计算：从出生至今有多少天？
+time1=Sys.Date()time2=as.Date(&amp;quot;1997-11-8&amp;quot;)difftime(time1,time2,units = &amp;quot;days&amp;quot;)## Time difference of 7862 days</description>
+    </item>
+    
+    <item>
       <title>爬虫</title>
       <link>/2019/05/19/%E7%88%AC%E8%99%AB/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>

@@ -1,0 +1,18 @@
+---
+title: 时间函数
+author: ''
+date: '2019-05-19'
+slug: 时间函数
+categories:
+  - r
+tags: []
+---
+计算：从出生至今有多少天？
+
+
+```{r}
+time1=Sys.Date()
+time2=as.Date("1997-11-8")
+difftime(time1,time2,units = "days")
+```
+
