@@ -1,9 +1,24 @@
 ---
-title: 爬虫
+title: "爬虫"
 author: ''
 date: '2019-05-19'
 slug: 爬虫
-categories:
-  - r
 tags: []
+categories: r
 ---
+```{r}
+library(rvest)
+url<-'http://www.gov.cn/premier/2017-03/16/content_5177940.htm'
+web<-read_html(url,encoding="utf-8")
+position<-web %>% html_nodes("div.pages_content") %>% html_text()
+library(jiebaR)
+engine_s<-worker(stop_word = "stopwords.txt")
+seg<-segment(position,engine_s)
+f<-freq(seg)
+f<-f[order(f[2],decreasing=TRUE),]
+library(wordcloud2)
+f<-f[1:150,]
+wordcloud2(f, size = 0.8 ,shape='star') 
+```
+
+
