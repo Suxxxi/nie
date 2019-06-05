@@ -6,19 +6,60 @@
     <description>Recent content in r on nie website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>R语言：绘制流程图</title>
+      <link>/2019/06/05/r%E8%AF%AD%E8%A8%80-%E7%BB%98%E5%88%B6%E6%B5%81%E7%A8%8B%E5%9B%BE/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/05/r%E8%AF%AD%E8%A8%80-%E7%BB%98%E5%88%B6%E6%B5%81%E7%A8%8B%E5%9B%BE/</guid>
+      <description>library(DiagrammeR)## Warning: 程辑包&amp;#39;DiagrammeR&amp;#39;是用R版本3.5.3 来建造的grViz(&amp;quot;digraph flowchart {# node definitions with substituted label textnode [fontname = Helvetica, shape = rectangle] tab1 [label = &amp;#39;@@1&amp;#39;]tab2 [label = &amp;#39;@@2&amp;#39;]tab3 [label = &amp;#39;@@3&amp;#39;]tab4 [label = &amp;#39;@@4&amp;#39;]tab5 [label = &amp;#39;@@5&amp;#39;]# edge definitions with the node IDstab1 -&amp;gt; tab2 -&amp;gt; tab3 -&amp;gt; tab4 -&amp;gt; tab5;}[1]: &amp;#39;起床&amp;#39;[2]: &amp;#39;洗漱&amp;#39;[3]: &amp;#39;吃饭&amp;#39;[4]: &amp;#39;上课&amp;#39;[5]: &amp;#39;睡觉&amp;#39;&amp;quot;){&#34;</description>
+    </item>
+    
+    <item>
+      <title>R语言：ggplot2基础绘图</title>
+      <link>/2019/06/01/r%E8%AF%AD%E8%A8%80-ggplot2%E5%9F%BA%E7%A1%80%E7%BB%98%E5%9B%BE/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/01/r%E8%AF%AD%E8%A8%80-ggplot2%E5%9F%BA%E7%A1%80%E7%BB%98%E5%9B%BE/</guid>
+      <description>条形图的绘制
+# 我们拿到这样的数据name &amp;lt;- c(&amp;quot;多&amp;quot;,&amp;quot;中&amp;quot;,&amp;quot;少&amp;quot;,&amp;quot;中&amp;quot;,&amp;quot;少&amp;quot;)data &amp;lt;- data.frame(name) # 转化为数据框library(ggplot2)## Warning: 程辑包&amp;#39;ggplot2&amp;#39;是用R版本3.5.3 来建造的# 简单地画出一个图ggplot(data,aes(x=name)) + geom_bar()# 画点图代码如下data1 &amp;lt;- data.frame(a=1:3,b=3:1)ggplot(data1,aes(a,b)) + geom_point()###下面几种作图方式等价###方式1 ggplot(data,aes(x=name)) + geom_bar()###方式2ggplot(data) + geom_bar(aes(x=name))###方式3p &amp;lt;- ggplot(data,aes(x=name)) p + geom_bar()简单参数的调整
+p &amp;lt;-ggplot(data,aes(x=name))p + geom_bar(col=&amp;quot;red&amp;quot;) # 调整柱子边框颜色为红色（注意这里col不是柱子颜色）p + geom_bar(fill=&amp;quot;red&amp;quot;) # 调整柱子颜色为红色(fill才是柱子内部颜色)p + geom_bar(width=0.5) # 调整柱子宽度,1时两个柱子挨在一起，0.5则宽度是1时的一半纵坐标使用百分比表示
+library(dplyr) # ggplot2 包常常和dplyr包一起使用## Warning: 程辑包&amp;#39;dplyr&amp;#39;是用R版本3.</description>
+    </item>
+    
+    <item>
+      <title>Mendeley文献管理软件的使用</title>
+      <link>/2019/05/22/mendeley%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/05/22/mendeley%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <description>Mendeley文献管理软件使用介绍
+平台简介：
+Mendeley是一款免费的跨平台文献管理软件，同时也是一个在线的学术社交网络平台。可一键抓取网页上的文献信息添加到个人的library中。还可安装MS Word和Open Office插件，方便在文字编辑器中插入和管理参考文献。参考文献格式与Zotero一样用各种期刊格式的CLS文件。Mendeley还免费提供各2GB的文献存储和100MB的共享空间
+平台功能：
+1.参考文献管理（Reference Manager）
+2.PDF文件阅读与标注（Read and Annotate）
+3.添加与组织（Add and Organize）
+4.与全球同行协作（Collaborate）
+5.备份、同步与移动（Backup, Sync and Mobile）
+6.网络与发现（Network and Discover）
+其它免费文献管理软件还有：Zotero,Docear, ReadCube…
+博客文章介绍 https://www.cnblogs.com/Jspo/p/8328115.html</description>
+    </item>
+    
+    <item>
       <title>做了一个简单的时间函数</title>
-      <link>/2019/05/19/%E6%97%B6%E9%97%B4%E5%87%BD%E6%95%B0/</link>
+      <link>/2019/05/19/r%E7%9A%84%E4%BD%BF%E7%94%A8%E6%97%B6%E9%97%B4%E5%87%BD%E6%95%B0/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/05/19/%E6%97%B6%E9%97%B4%E5%87%BD%E6%95%B0/</guid>
+      <guid>/2019/05/19/r%E7%9A%84%E4%BD%BF%E7%94%A8%E6%97%B6%E9%97%B4%E5%87%BD%E6%95%B0/</guid>
       <description>计算：从1997-11-8出生至今有多少天？
-time1=Sys.Date()time2=as.Date(&amp;quot;1997-11-8&amp;quot;)difftime(time1,time2,units = &amp;quot;days&amp;quot;)## Time difference of 7862 days</description>
+time1=Sys.Date()time2=as.Date(&amp;quot;1997-11-8&amp;quot;)difftime(time1,time2,units = &amp;quot;days&amp;quot;)## Time difference of 7873 days</description>
     </item>
     
     <item>

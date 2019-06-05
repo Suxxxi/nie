@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.5" />
+
+
+<title>R语言：绘制流程图 - nie website</title>
+<meta property="og:title" content="R语言：绘制流程图 - nie website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/1.jpg"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+    <li><a href="http://www.scu.edu.cn/">Scu</a></li>
+    
+    <li><a href="https://weibo.com/">Weibo</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">R语言：绘制流程图</h1>
+
+    
+    <span class="article-date">2019-06-05</span>
+    
+
+    <div class="article-content">
+      
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/viz/viz.js"></script>
+<link href="/rmarkdown-libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/grViz-binding/grViz.js"></script>
+
+
+<pre class="r"><code>library(DiagrammeR)</code></pre>
+<pre><code>## Warning: 程辑包&#39;DiagrammeR&#39;是用R版本3.5.3 来建造的</code></pre>
+<pre class="r"><code>grViz(&quot;digraph flowchart {
+      # node definitions with substituted label text
+      node [fontname = Helvetica, shape = rectangle]        
+      tab1 [label = &#39;@@1&#39;]
+      tab2 [label = &#39;@@2&#39;]
+      tab3 [label = &#39;@@3&#39;]
+      tab4 [label = &#39;@@4&#39;]
+      tab5 [label = &#39;@@5&#39;]
+
+      # edge definitions with the node IDs
+      tab1 -&gt; tab2 -&gt; tab3 -&gt; tab4 -&gt; tab5;
+      }
+
+      [1]: &#39;起床&#39;
+      [2]: &#39;洗漱&#39;
+      [3]: &#39;吃饭&#39;
+      [4]: &#39;上课&#39;
+      [5]: &#39;睡觉&#39;
+      &quot;)</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"digraph flowchart {\n      # node definitions with substituted label text\n      node [fontname = Helvetica, shape = rectangle]        \n      tab1 [label = \"起床\"]\n      tab2 [label = \"洗漱\"]\n      tab3 [label = \"吃饭\"]\n      tab4 [label = \"上课\"]\n      tab5 [label = \"睡觉\"]\n\n      # edge definitions with the node IDs\n      tab1 -> tab2 -> tab3 -> tab4 -> tab5;\n      }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
